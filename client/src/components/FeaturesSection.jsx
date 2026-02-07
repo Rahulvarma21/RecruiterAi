@@ -57,7 +57,7 @@ const FeaturesSection = () => {
                  </div>
 
                  <div className="w-full lg:w-1/3">
-                    <p className="text-3xl font-caveat md:text-4xl text-[#2E1065] leading-[1.2] tracking-[-0.07em]">
+                    <p className="text-3xl md:text-4xl text-[#2E1065] leading-[1.2] tracking-[-0.07em]">
                         {feature.description}
                     </p>
                  </div>
