@@ -8,7 +8,7 @@ const HeroSection = () => {
 
   return (
     <div className="bg-[#D0BCFF] min-h-screen px-4 md:px-16 lg:px-24 pt-6 relative overflow-hidden">
-      <nav className="flex justify-between items-center mb-10 md:mb-16 relative z-50">
+      <nav className="flex justify-between items-center mb-10 md:mb-20 relative z-50">
         <div className="text-3xl font-bold tracking-[-0.07em] text-[#2E1065]">RecruiterAi</div>
         
         <div className="hidden md:flex gap-8 font-medium tracking-[-0.03em] text-xl text-[#2E1065]">
@@ -53,9 +53,9 @@ const HeroSection = () => {
           isMenuOpen ? 'opacity-100 translate-y-0 visible' : 'opacity-0 -translate-y-full invisible'
         }`}
       >
-          <a href="#" className="text-2xl font-medium tracking-[-0.03em] text-[#2E1065] hover:text-black" onClick={closeMenu}>Features</a>
-          <a href="#" className="text-2xl font-medium tracking-[-0.03em] text-[#2E1065] hover:text-black" onClick={closeMenu}>How It Works</a>
-          <a href="#" className="text-2xl font-medium tracking-[-0.03em] text-[#2E1065] hover:text-black" onClick={closeMenu}>Pricing</a>
+          <p  className="text-2xl font-medium tracking-[-0.03em] text-[#2E1065] hover:text-black" onClick={closeMenu}>Features</p>
+          <p  className="text-2xl font-medium tracking-[-0.03em] text-[#2E1065] hover:text-black" onClick={closeMenu}>How It Works</p>
+          <p  className="text-2xl font-medium tracking-[-0.03em] text-[#2E1065] hover:text-black" onClick={closeMenu}>Pricing</p>
           <button className="bg-[#2E1065] text-xl text-[#D0BCFF] tracking-[-0.07em] px-8 py-3 rounded-lg font-medium hover:bg-[#1a0f40] transition cursor-pointer" onClick={closeMenu}>
             Get Started
           </button>
